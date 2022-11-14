@@ -3,15 +3,16 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap w/ Vite</title>
+    <title>Viajando pelo Mundo</title>
   </head>
   <body>
     <!-- Topo -->
     <header id="header" class="d-flex flex-column">
       <div class="overlay py-5 px-3">
-        <nav class="d-flex flex-wrap justify-content-around w-100">
-          <a href="#" class="d-flex align-items-center">
-            <img src="" class="img-fluid">LOGO
+        <nav class="d-flex flex-wrap justify-content-between">
+          <a class="navbar-brand ps-5" href="#">
+            <img class="img-fluid" width="50" src="./public/images/globe.png">
+            <span class="text-uppercase h6">Viajando pelo mundo</span>
           </a>
           <ul class="nav nav-pills mb-5">
             <li class="nav-item"><a href="#" class="nav-link active">Início</a></li>
@@ -46,7 +47,69 @@
         </div>
       </div>
     </header>
-    
+    <section id="plans" class="container py-2">
+      <main>
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Fortaleza</h4>
+              </div>
+              <div class="card-body">
+                <img src="./public/images/pacotes.jpg" class="img-fluid">
+                <h1 class="card-title pricing-card-title">R$1200,00</h1>
+                <small class="text-muted fw-light">Pacote</small>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>Dividimos em 12x sem juros</li>
+                  <li>Passagem área</li>
+                  <li>Hospedagem 7 dias</li>
+                  <li>Excursão nas melhores prais</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-outline-primary">COMPRAR</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Pernambuco</h4>
+              </div>
+              <div class="card-body">
+                <img src="./public/images/pacotes.jpg" class="img-fluid">
+                <h1 class="card-title pricing-card-title">R$1200,00</h1>
+                <small class="text-muted fw-light">Pacote</small>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>Dividimos em 12x sem juros</li>
+                  <li>Passagem área</li>
+                  <li>Hospedagem 7 dias</li>
+                  <li>Excursão nas melhores prais</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-primary">COMPRAR</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm border-primary">
+              <div class="card-header py-3 text-bg-primary border-primary">
+                <h4 class="my-0 fw-normal">Rio de Janeiro</h4>
+              </div>
+              <div class="card-body">
+                <img src="./public/images/pacotes.jpg" class="img-fluid">
+                <h1 class="card-title pricing-card-title">R$1200,00</h1>
+                <small class="text-muted fw-light">Pacote</small>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>Dividimos em 12x sem juros</li>
+                  <li>Passagem área</li>
+                  <li>Hospedagem 7 dias</li>
+                  <li>Excursão nas melhores prais</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-primary">COMPRAR</button>
+              </div>
+            </div>
+          </div>
+        </div>            
+      </main>
+    </section>
     <script type="module" src="./js/main.js"></script>
   </body>
 </html>
